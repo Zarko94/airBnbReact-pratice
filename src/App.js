@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "./Components/Header";
-import Main from "./Components/Main";
+
+import CardContainer from "./Components/CardContainer";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Main />
+      <CardContainer />
     </div>
   );
 }
