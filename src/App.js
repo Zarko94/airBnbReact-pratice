@@ -1,11 +1,14 @@
 import React from "react";
-
-import CardContainer from "./Components/CardContainer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import CardList from "./components/CardList";
 
 function App() {
   return (
     <div>
-      <CardContainer />
+      <Navbar />
+      <Hero />
+      <CardList />
     </div>
   );
 }
